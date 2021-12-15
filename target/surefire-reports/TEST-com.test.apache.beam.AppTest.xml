@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.test.apache.beam.AppTest" time="0.032" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/eliasvargas/Proyectos/ELIAS/PRUEBAS/apache-beam/my-first-apache-beam/target/test-classes:/home/eliasvargas/Proyectos/ELIAS/PRUEBAS/apache-beam/my-first-apache-beam/target/classes:/home/eliasvargas/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/eliasvargas/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-sdks-java-core/2.34.0/beam-sdks-java-core-2.34.0.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-model-pipeline/2.34.0/beam-model-pipeline-2.34.0.jar:/home/eliasvargas/.m2/repository/org/conscrypt/conscrypt-openjdk-uber/2.5.1/conscrypt-openjdk-uber-2.5.1.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-model-job-management/2.34.0/beam-model-job-management-2.34.0.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-vendor-bytebuddy-1_11_0/0.1/beam-vendor-bytebuddy-1_11_0-0.1.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-vendor-grpc-1_36_0/0.2/beam-vendor-grpc-1_36_0-0.2.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-vendor-guava-26_0-jre/0.1/beam-vendor-guava-26_0-jre-0.1.jar:/home/eliasvargas/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/eliasvargas/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/eliasvargas/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.jar:/home/eliasvargas/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.4/jackson-annotations-2.12.4.jar:/home/eliasvargas/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.jar:/home/eliasvargas/.m2/repository/org/apache/avro/avro/1.8.2/avro-1.8.2.jar:/home/eliasvargas/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/home/eliasvargas/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar:/home/eliasvargas/.m2/repository/com/thoughtworks/paranamer/paranamer/2.7/paranamer-2.7.jar:/home/eliasvargas/.m2/repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:/home/eliasvargas/.m2/repository/org/tukaani/xz/1.5/xz-1.5.jar:/home/eliasvargas/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar:/home/eliasvargas/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-runners-direct-java/2.34.0/beam-runners-direct-java-2.34.0.jar:/home/eliasvargas/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/eliasvargas/.m2/repository/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-11.0.12/lib"/>
+    <property name="sun.java.command" value="/home/eliasvargas/Proyectos/ELIAS/PRUEBAS/apache-beam/my-first-apache-beam/target/surefire/surefirebooter7975734736044351811.jar /home/eliasvargas/Proyectos/ELIAS/PRUEBAS/apache-beam/my-first-apache-beam/target/surefire 2021-12-15T11-52-40_962-jvmRun1 surefire10814332823920444802tmp surefire_014413093120182463774tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/eliasvargas/Proyectos/ELIAS/PRUEBAS/apache-beam/my-first-apache-beam/target/test-classes:/home/eliasvargas/Proyectos/ELIAS/PRUEBAS/apache-beam/my-first-apache-beam/target/classes:/home/eliasvargas/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/eliasvargas/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-sdks-java-core/2.34.0/beam-sdks-java-core-2.34.0.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-model-pipeline/2.34.0/beam-model-pipeline-2.34.0.jar:/home/eliasvargas/.m2/repository/org/conscrypt/conscrypt-openjdk-uber/2.5.1/conscrypt-openjdk-uber-2.5.1.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-model-job-management/2.34.0/beam-model-job-management-2.34.0.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-vendor-bytebuddy-1_11_0/0.1/beam-vendor-bytebuddy-1_11_0-0.1.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-vendor-grpc-1_36_0/0.2/beam-vendor-grpc-1_36_0-0.2.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-vendor-guava-26_0-jre/0.1/beam-vendor-guava-26_0-jre-0.1.jar:/home/eliasvargas/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/eliasvargas/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/eliasvargas/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.jar:/home/eliasvargas/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.4/jackson-annotations-2.12.4.jar:/home/eliasvargas/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.jar:/home/eliasvargas/.m2/repository/org/apache/avro/avro/1.8.2/avro-1.8.2.jar:/home/eliasvargas/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/home/eliasvargas/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar:/home/eliasvargas/.m2/repository/com/thoughtworks/paranamer/paranamer/2.7/paranamer-2.7.jar:/home/eliasvargas/.m2/repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:/home/eliasvargas/.m2/repository/org/tukaani/xz/1.5/xz-1.5.jar:/home/eliasvargas/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar:/home/eliasvargas/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/home/eliasvargas/.m2/repository/org/apache/beam/beam-runners-direct-java/2.34.0/beam-runners-direct-java-2.34.0.jar:/home/eliasvargas/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/eliasvargas/.m2/repository/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/eliasvargas"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-11.0.12"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/eliasvargas/Proyectos/ELIAS/PRUEBAS/apache-beam/my-first-apache-beam"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/eliasvargas/Proyectos/ELIAS/PRUEBAS/apache-beam/my-first-apache-beam/target/surefire/surefirebooter7975734736044351811.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="eliasvargas"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.10.0-1051-oem"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/home/eliasvargas/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="/home/eliasvargas/Proyectos/ELIAS/PRUEBAS/apache-beam/my-first-apache-beam"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.test.apache.beam.AppTest" time="0.001"/>
+</testsuite>

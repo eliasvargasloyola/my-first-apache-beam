@@ -1,0 +1,3 @@
+com/test/apache/beam/App.class
+com/test/apache/beam/functions/RevertKV.class
+com/test/apache/beam/domain/DeptDomain.class
